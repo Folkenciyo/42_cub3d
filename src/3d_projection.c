@@ -6,7 +6,7 @@
 /*   By: juguerre <juguerre@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/31 21:49:52 by regea-go          #+#    #+#             */
-/*   Updated: 2024/09/03 03:40:55 by juguerre         ###   ########.fr       */
+/*   Updated: 2024/09/03 04:36:13 by juguerre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void fill_background_3d(t_game *game)
 static void draw_orientation_3d(t_game *game, int x_comp, double y_comp, int wall)
 {
     if (wall == WEST)
-        mlx_put_pixel(game->img, x_comp, y_comp, DARK_BLUE);
+        mlx_put_pixel(game->img, x_comp, y_comp, DARK_BLUE); //aki es donde tengo q trabajar para pintar
     else if (wall == EAST)
         mlx_put_pixel(game->img, x_comp, y_comp, VIOLET);
     else if (wall == NORTH)

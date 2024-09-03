@@ -1,24 +1,9 @@
 TODO:
 
- Parsing: 
-- Check the extension of the Map
-- Read the map:
-    1. Open file.
-    2. Read file: GNL. Check texture + save it.
-    3. Verify if the number of texture is right && add it to an array.
-    4. Get the map:
-     * Save a char+ with all the map.
-     * Split it from \n and save it in an array.
-     * then:
-      + Check texture  has space  or tabs
-      + Parser RGB
-      + Check Duplicate
-      + Check 1st and last line. 
-      + Suroundbyone FUNCTION!!!
-    5. Free what is not needed.
-- Validate Map.
-- Texture list
-- Color Texture
-- Get player position.
-- Map dimensions.
-    
+static void draw_orientation_3d(t_game *game, int x_comp, double y_comp, int wall)
+aquí es donde se pintorrea
+
+hay que inicializar las texturas en la mlx, para ello te recomiendo un par de cosos
+https://github.com/gleal42/cub3d/blob/master/mandatory_game/start_game.c#L20
+Linea 20 finit_text
+de nada
