@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   map_drawings.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: regea-go <regea-go@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: juguerre <juguerre@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/31 21:50:29 by regea-go          #+#    #+#             */
-/*   Updated: 2024/08/31 21:50:30 by regea-go         ###   ########.fr       */
+/*   Updated: 2024/09/03 03:27:01 by juguerre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,8 +37,8 @@ void draw_player_minimap(t_game *game)
 void render_screen(t_game *game)
 {
     fill_background_3d(game);
-    point_of_view(game);
     fill_background_minimap(game);
+    point_of_view(game);
     draw_player_minimap(game);
     mlx_image_to_window(game->mlx, game->img, 0, 0); 
 }

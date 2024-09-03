@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   defines.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: regea-go <regea-go@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: juguerre <juguerre@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 17:41:39 by juguerre          #+#    #+#             */
-/*   Updated: 2024/08/31 21:57:36 by regea-go         ###   ########.fr       */
+/*   Updated: 2024/09/03 03:41:18 by juguerre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 # define DEFINES_H
 
 /* MINIMAP SIZE*/
-# define MINIMAP_WIDTH 400
-# define MINIMAP_HEIGHT 200
+# define MINIMAP_WIDTH 1000
+# define MINIMAP_HEIGHT 500
 
 /* MAP SIZE */
-# define WIDTH 1200
-# define HEIGHT 600
+# define WIDTH 2900
+# define HEIGHT 1800
 
 /* PLAYER */
 /* Distance at each button pressed */
@@ -49,7 +49,7 @@
 # define RIGHT 1
 
 /* 3D MACROS */
-# define MAX_WALL_HEIGHT 500
+# define MAX_WALL_HEIGHT 1000
 
 /* EXIT & ERROR MANAGE */
 # define EXIT_SUCCESS 0

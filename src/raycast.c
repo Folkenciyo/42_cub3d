@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   raycast.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: regea-go <regea-go@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: juguerre <juguerre@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/31 21:50:45 by regea-go          #+#    #+#             */
-/*   Updated: 2024/08/31 21:50:47 by regea-go         ###   ########.fr       */
+/*   Updated: 2024/09/03 03:30:19 by juguerre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ static int raycast_iteration(t_game *game, double x1, double y1, int iteration)
     double y;
 
     i = 0;
-    while (i < VISION_LENGTH)                           
+    while (i < VISION_LENGTH)
     {
         x = (double)(game->player->x_pos + i * (x1 - game->player->x_pos) / VISION_LENGTH);
         y = (double)(game->player->y_pos + i * (y1 - game->player->y_pos) / VISION_LENGTH);

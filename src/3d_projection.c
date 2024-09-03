@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   3d_projection.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: regea-go <regea-go@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: juguerre <juguerre@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/31 21:49:52 by regea-go          #+#    #+#             */
-/*   Updated: 2024/08/31 21:49:58 by regea-go         ###   ########.fr       */
+/*   Updated: 2024/09/03 03:40:55 by juguerre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ void render_obstacle_3d(t_game *game, int iteration, double distance, int wall)
     double wall_height;
 
     offset_x = (iteration * COLUMNS_PER_RAY);
-    wall_height = MAX_WALL_HEIGHT / (distance * 2);
+    wall_height = MAX_WALL_HEIGHT / (distance / 2);
     draw_columns_per_coordinate_3d(game, wall_height, offset_x, wall);
 }
 
